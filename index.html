@@ -271,53 +271,16 @@
           </ul>
         </div>
 
-        <form id="bookingForm">
-          <div class="form-group">
-            <label for="name">Ваше ім'я</label>
-            <input type="text" id="name" placeholder="Введіть ваше ім'я" required>
-          </div>
-
-          <div class="form-group">
-            <label for="phone">Телефон</label>
-            <input type="tel" id="phone" placeholder="Введіть номер телефона" required>
-          </div>
-
-          <div class="form-group">
-           <label for="service">Оберіть послугу</label>
-<select id="service" name="service" required>
-  <option value="">-- Оберіть послугу --</option>
-  <option value="Гігієнічний манікюр">Гігієнічний манікюр</option>
-  <option value="Покриття гель-лаком">Покриття гель-лаком</option>
-  <option value="Комплексний манікюр">Комплексний манікюр</option>
-</select>
-<div class="addons">
-  <p>Додатково</p>
-
-  <label>
-    <input type="checkbox" name="addons" value="Укріплення нігтів">
-    Укріплення нігтів
-  </label>
-
-  <label>
-    <input type="checkbox" name="addons" value="Дизайн">
-    Дизайн
-  </label>
+        <div
+  class="calendly-inline-widget"
+  data-url="https://calendly.com/comdianka71/30min"
+  style="min-width:320px;height:700px;">
 </div>
-          </div>
 
-          <div class="form-group">
-            <label for="date">Бажана дата</label>
-            <input type="date" id="date" required>
-          </div>
-
-          <div class="form-group">
-           <label for="details">Побажання щодо дизайну</label>
-<textarea id="details" name="details"
-  placeholder="Наприклад: молочний відтінок, френч або мінімалістичний дизайн"></textarea>
-          </div>
-
-          <button type="submit" class="btn">Відправити заявку</button>
-        </form>
+<script
+  src="https://assets.calendly.com/assets/external/widget.js"
+  async>
+</script>
       </div>
     </div>
   </section>
